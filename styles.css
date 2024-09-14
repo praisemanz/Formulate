@@ -1,0 +1,52 @@
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background: linear-gradient(black, white);
+    color: white;
+}
+.container{
+    text-align: center;
+}
+.title{
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+.tagline{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+.upload-area{
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    border:2px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.upload-area:hover{
+background: rgba(255,255,255,0.2);
+}
+.hidden{
+    display: none;
+}
+.upload-area p{
+    margin:0;
+    color:white;
+    font-size: 1rem;
+    font-weight: 300;
+}
