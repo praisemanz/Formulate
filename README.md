@@ -1,2 +1,2 @@
 # Formulate
-Hack The North Project
+Hack The North Fall 2024 Project
